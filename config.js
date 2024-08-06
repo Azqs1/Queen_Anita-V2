@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3AD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "";
+global.owner = process.env.OWNER_NUMBER || "237698947449";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -45,24 +45,24 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "-",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
   author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
   packname: process.env.PACK_NAME || "A N I T A",
   botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  ownername: process.env.OWNER_NAME || "Adriel Vladimir",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "FdfKwJUyvARXavM5sxgDz66N",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "41963f99e4fbe82860a549db2b3957aa",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
